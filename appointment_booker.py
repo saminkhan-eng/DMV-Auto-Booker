@@ -21,7 +21,7 @@ finally:
 # optional parameters: change these constants if desired
 
 # browser to use (make sure it matches the webdriver you installed)
-BROWSER = 'Firefox'
+BROWSER = 'Chrome'
 
 # file path for user/appointment data
 FILE_PATH = 'data.txt'
@@ -37,14 +37,14 @@ SAVE_AS_PDF = False
 
 
 # dummy user data
-FIRST_NAME = 'Tommy'
-LAST_NAME = 'Tutone'
-PHONE_NUMBER = '8088675309'
+FIRST_NAME = 'Samin'
+LAST_NAME = 'Khan'
+PHONE_NUMBER = '4693533377'
 
 # dummy current appointment data
-CURRENT_MONTH = 'December'
-CURRENT_DATE = '31'
-CURRENT_TIME = '2:30 PM'
+CURRENT_MONTH = 'August'
+CURRENT_DATE = '14'
+CURRENT_TIME = '2:52 PM'
 CURRENT_YEAR = '2025'
 
 
@@ -259,3 +259,4 @@ while True:
     for dmv in locations:
         select_location(dmv)
         check_appointments()
+
